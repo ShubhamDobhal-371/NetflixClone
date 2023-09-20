@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            border: border-box;
+            font-family: 'Poppins';
+        }
+        a{
+            color:#737373;
+            text-decoration: none;
+        }
+
+        body {
+            height: 140vh;
+            width: 100vw;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/image/loginpage.jpg');
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+        }
+
+        header {
+            height: 15vh;
+            width: 100vw;
+
+
+            background-color: transparent;
+            /* background-color: antiquewhite; */
+
+        }
+
+        .logo img {
+
+            width: 180px;
+            margin-left: 30px;
+
+        }
+
+        .container {
+
+            padding: 60px;
+            height: 600px;
+            width: 400px;
+            background-color: transparent;
+            background-color: rgba(0, 0, 0, 0.701);
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+        }
+
+        .input {
+            padding-inline: 20px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            margin-inline: 30px;
+            margin-top: 16px;
+            margin-bottom: 20px;
+            background-color: #333333;
+            border: none;
+            border-radius: 5px;
+            color: #8c8c8c;
+            font-size: 1rem;
+
+
+        }
+
+        .sing {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 80px;
+
+
+
+        }
+
+        .botton {
+            padding-inline: 20px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            margin-inline: 30px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: white;
+            background-color: #e50914;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 12px;
+        }
+
+        .botton:hover {
+            background-color: #c5050f;
+        }
+        .hh{
+            font-size: 0.8rem;
+        }
+        .hh a{
+            margin-left: 160px;
+        }
+        .remb{
+            margin-left: 5px;
+        }
+        .footersi{
+            font-size: 0.8rem;
+            color: #737373;
+            margin-top: 20px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/image/logo.png" alt="">
+
+        </div>
+    </header>
+
+    <main style=" display: flex; justify-content: center;">
+
+        <div class="container">
+            <div class="sing">
+                <h1>Sing in</h1>
+                <input type="email" class="input" placeholder="Email or Phone number">
+                <input type="password" class="input" placeholder="password">
+                <button class="botton">Sing in</button>
+                <div class="hh">
+                    <label for="i1">
+                        <input type="checkbox" name="Check" id="i1"> <span class="remb"> Remember me</span>
+                    </label>
+                    <a href="#">Need help</a>
+
+                </div>
+
+            </div>
+
+            <div class="footsing" style="margin-left:30px;">
+
+
+                <a href="#">New to Netflix? <span><a href="#" style="color: white;"> Sign up now.</a></span></a>
+                <p class="footersi">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a
+                        href="" style="color: #0071eb;">Learn more.</a></p>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
